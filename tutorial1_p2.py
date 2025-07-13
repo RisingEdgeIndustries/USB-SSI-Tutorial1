@@ -1,28 +1,33 @@
-#
+# ################################################################
 # Project Name:
-# USB Bridge - Tutorial 1
+# USB Bridge - Tutorial1_p2
 #
 # Author: rvalentine
 # Date: 10/7/2023
 #
+#
 # Project Description:
-# ----------------------
-# Supplemental code supporting USB bridge tutorial 1 p1
-# which finds, connects and displays bridge descriptor
-# information.
+# ----------------------------------------------------------------
+# This tutorial finds, connects and displays bridge descriptor
+# information. This tutorial directly leverages a Python wrapped
+# libusb library impelementation.
 #
+#
+# ----------------------------------------------------------------
 # Disclaimer:
-# ----------------------
-# This code is provided as is and is not supported
-# by RisingEdgeIndsutreis in any way. The user
-# accepts all risk when running all or some of 
-# this python module.
+# ----------------------------------------------------------------
+# This library is provided strictly as example code. There is no
+# expected reliablity of operation from RisingEdgeIndustries and 
+# this source code is not to be sold or represented as a 3'd party
+# solution for commercial use. The below code is development code
+# for example use only supporting customers as they test the bridge
+# products from RisingEdgeIndustries. Nothing in this file is allowed
+# to be modified or sold in any way. No code below is released with 
+# the intention or expectation of reliable operation.
 #
-
-
-
-
-
+# Packing this module with any 3d part code can only be done with 
+# the inclusion of this disclaimer and no modifications.
+# ################################################################
 
 import ctypes as ct
 import libusb as usb

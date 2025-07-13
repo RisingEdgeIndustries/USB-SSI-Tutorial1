@@ -1,24 +1,38 @@
+# ################################################################
 # Project Name:
-# tutorial p1 - descriptor and reg space query
+# USB Bridge - Tutorial1_p1
+#
+# Author: rvalentine
+# Date: 10/19/2023
+#
 #
 # Project Description:
-# ----------------------
+# ----------------------------------------------------------------
 # This module (tutorial 1 part1) opens a connection to the USB 
 # SSI bridge and reads the descriptor information and the entire
-# configuration register space of the bridge.
+# configuration register space of the bridge. This information
+# is printed to the console.
 #
 #
-# TODO:
-# ----------------------
+# Notes:
+# ----------------------------------------------------------------
 #
 #
 # ----------------------------------------------------------------
-# Project Notes:
+# Disclaimer:
 # ----------------------------------------------------------------
-# 1. The REIndustries library comes with a logger. The user can pass
-# 	a filename for the file logger into the library which is done
-# 	here.
+# This library is provided strictly as example code. There is no
+# expected reliablity of operation from RisingEdgeIndustries and 
+# this source code is not to be sold or represented as a 3'd party
+# solution for commercial use. The below code is development code
+# for example use only supporting customers as they test the bridge
+# products from RisingEdgeIndustries. Nothing in this file is allowed
+# to be modified or sold in any way. No code below is released with 
+# the intention or expectation of reliable operation.
 #
+# Packing this module with any 3d part code can only be done with 
+# the inclusion of this disclaimer and no modifications.
+# ################################################################
 
 
 from USB_SSI_Libs.rei_usb_lib import USB20F_Device
